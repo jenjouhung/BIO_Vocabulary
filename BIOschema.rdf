@@ -724,7 +724,7 @@
   -->
 
   <rdf:Property rdf:about="http://purl.org/vocab/bio/0.1/date">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
     <rdfs:label xml:lang="en">Date</rdfs:label>
     <label:plural xml:lang="en">Dates</label:plural>
     <rdfs:comment xml:lang="en">The date at which an event occurred.</rdfs:comment>
@@ -1057,7 +1057,7 @@
     <label:plural xml:lang="en">Organizations</label:plural>
     <rdfs:comment xml:lang="en">An organization that plays a role in an event.</rdfs:comment>
     <rdfs:domain rdf:resource="http://purl.org/vocab/bio/0.1/Event"/>
-    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+    <rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
     <rdfs:isDefinedBy rdf:resource="http://purl.org/vocab/bio/0.1/"/>
     <rdfs:subPropertyOf rdf:resource="http://purl.org/vocab/bio/0.1/agent"/>
     <dct:issued>2010-05-05</dct:issued>
